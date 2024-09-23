@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Search Engine</h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Enter search term">
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="search-history">
+            <h2>Search History</h2>
+            <ul id="historyList"></ul>
+            <button id="clearHistoryButton">Clear History</button>
+        </div>
+        <div class="search-results">
+            <h2>Search Results</h2>
+            <div id="resultsList"></div>
+        </div>
+        <div class="image-results">
+            <h2>Images</h2>
+            <div id="imageList"></div> <!-- New section for displaying images -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
